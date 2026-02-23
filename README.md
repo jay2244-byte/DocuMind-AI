@@ -1,4 +1,4 @@
-# RAG Document Chatbot
+# DocuMind AI
 
 A production-ready, beginner-friendly Retrieval-Augmented Generation (RAG) chatbot that allows users to upload PDF, DOCX, and TXT documents and query them using semantic search. This project is built completely from scratch using Python, without relying on high-level orchestration wrappers like LangChain, to demonstrate the core mechanics of vector embeddings and similarity search.
 
@@ -57,3 +57,4 @@ streamlit run app.py
 *   `document_processor.py`: Contains the logic for reading text from different file types and the `chunk_text()` sliding-window function.
 *   `vector_store.py`: Contains the `VectorStore` class which manages the SentenceTransformer model and the FAISS index memory state.
 *   `requirements.txt`: The list of Python dependencies required to run the project.
+
